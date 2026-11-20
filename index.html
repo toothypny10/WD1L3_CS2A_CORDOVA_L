@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canvas Club</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    
+    <style>
+        .internal-css-box {
+            background-color: #ffffff;
+            border-left: 5px solid #111111;
+            padding: 18px 24px;
+            margin: 10px auto;
+            max-width: 1100px;
+            border-radius: 8px;
+            color: #444444;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+        }
+        .internal-css-box h3 {
+            margin-bottom: 6px;
+            color: #111111;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Site header and navigation -->
+    <header class="top-header">
+        <div class="brand">
+            <span class="brand-mark">CC</span>
+            <h1>Canvas Club</h1>
+        </div>
+
+        <nav class="navbar">
+            <ul class="navlist">
+                <li><a href="#home">Home</a></li>
+                <li class="dropdown">
+                    <a href="#collections">Collections</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#running">Running</a></li>
+                        <li><a href="#casual">Casual</a></li>
+                        <li><a href="#basketball">Basketball</a></li>
+                    </ul>
+                </li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main page content -->
+    <main class="container">
+        <!-- Featured sneaker introduction -->
+        <section class="hero-card">
+            <div class="hero-content">
+                <span class="subhead">CLASSIC CANVAS SNEAKERS</span>
+                <h2>A Classic Look for Every Day</h2>
+                <p>Explore timeless canvas sneakers with a high-top shape, clean lines, and an easy everyday fit.</p>
+                <a href="#collections" class="btn">Explore the Collection</a>
+                <p class="small-text"><em>This note is styled with the internal CSS in the &lt;style&gt; block.</em></p>
+            </div>
+            <div class="hero-image">
+                <img src="media/featured_shoes.png" alt="Featured Shoe" />
+            </div>
+        </section>
+
+        <div class="internal-css-box">
+            <h3>Internal CSS Example</h3>
+            <p>The styles for this box are written in the HTML file, and the external stylesheet styles the rest of the page.</p>
+        </div>
+
+        <!-- Product details and size guide -->
+        <section class="grid-2col">
+            <div class="card">
+                <h3>Product Highlights</h3>
+                <ul class="feature-list">
+                    <li>Durable canvas upper</li>
+                    <li>Classic lace-up front</li>
+                    <li>Comfortable cushioned footbed</li>
+                    <li>Rubber toe cap and sole</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h3>Size Guide</h3>
+                <table class="size-table">
+                    <thead>
+                        <tr>
+                            <th>Size</th>
+                            <th>Length (cm)</th>
+                            <th>Fit</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>7</td>
+                            <td>25.0</td>
+                            <td>Snug</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>26.0</td>
+                            <td>Regular</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>27.0</td>
+                            <td>Roomy</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Sneaker image gallery -->
+        <section class="gallery-section">
+            <h3>Canvas Sneaker Gallery</h3>
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <img src="media/shoe1.png" alt="Classic canvas sneaker" />
+                </div>
+                <div class="gallery-card">
+                    <img src="media/shoe2.png" alt="Canvas sneaker side view" />
+                </div>
+                <div class="gallery-card">
+                    <img src="media/shoe3.png" alt="Canvas sneaker in another color" />
+                </div>
+            </div>
+        </section>
+
+        <section class="grid-2col">
+            <div class="card">
+                <h3>Why Choose This Shoe</h3>
+                <ol class="numbered-list">
+                    <li>Classic high-top canvas shape</li>
+                    <li>Grippy rubber sole for daily wear</li>
+                    <li>Easy to pair with casual outfits</li>
+                </ol>
+            </div>
+
+            <div class="card">
+                <h3>Purchase Links</h3>
+                <p>Find your pair at our <a href="#" class="inline-link">storefront</a> or browse our <a href="#" class="inline-link">retail partners</a>.</p>
+                <p class="highlight-text">★ Designed for style and performance.</p>
+            </div>
+        </section>
+
+        <div class="card">
+            <h3>Inline CSS Example</h3>
+            <p style="color: #111111; font-weight: bold;">This sentence has inline CSS written directly in its HTML element.</p>
+        </div>
+
+        <!-- Flower collection grid -->
+        <section class="flower-section">
+            <h3>Flower Collection</h3>
+            <div class="flower-grid">
+                <div class="flower-card">
+                    <div class="flower-img-box">
+                        <img src="media/flower1.png" alt="Peach and coral dahlia" />
+                    </div>
+                    <p class="flower-desc">Layered peach petals with soft coral edges.</p>
+                </div>
+                <div class="flower-card">
+                    <div class="flower-img-box">
+                        <img src="media/flower2.png" alt="Yellow sunflower" />
+                    </div>
+                    <p class="flower-desc">Golden petals surround a rich, textured center.</p>
+                </div>
+                <div class="flower-card">
+                    <div class="flower-img-box">
+                        <img src="media/flower3.png" alt="Cream and yellow dahlia" />
+                    </div>
+                    <p class="flower-desc">Cream petals blend into warm yellow and orange tones.</p>
+                </div>
+                <div class="flower-card">
+                    <div class="flower-img-box">
+                        <img src="media/flower4.png" alt="Blue dahlia" />
+                    </div>
+                    <p class="flower-desc">Full blue petals fade from pale edges to a deep center.</p>
+                </div>
+                <div class="flower-card">
+                    <div class="flower-img-box">
+                        <img src="media/flower5.png" alt="Pink cosmos flowers" />
+                    </div>
+                    <p class="flower-desc">Delicate pink blooms with golden-brown centers.</p>
+                </div>
+                <div class="flower-card">
+                    <div class="flower-img-box">
+                        <img src="media/flower6.png" alt="Pale hibiscus flower" />
+                    </div>
+                    <p class="flower-desc">Light petals surround a vivid pink and red center.</p>
+                </div>
+                <div class="flower-card">
+                    <div class="flower-img-box">
+                        <img src="media/flower7.png" alt="Bright magenta anemone" />
+                    </div>
+                    <p class="flower-desc">Vivid magenta petals frame a dark, textured center.</p>
+                </div>
+                <div class="flower-card">
+                    <div class="flower-img-box">
+                        <img src="media/flower8.png" alt="White and lavender anemone" />
+                    </div>
+                    <p class="flower-desc">White petals with lavender shading surround a dark center.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Page footer -->
+    <footer class="site-footer">
+        <p>&copy; 2026 Canvas Club Sneaker Collection</p>
+    </footer>
+</body>
+</html>
